@@ -3,6 +3,14 @@
   margin: 0;
   box-sizing: border-box;
 }
+:root {
+  --black: black;
+  --white: white;
+  --palm-leaf: #779341;
+  --blueberry: #4285f4;
+  --alice-blue: #e9f1ff;
+  --philippine-gray: #8d8d8d;
+}
 body {
   font-family: "Poppins", serif;
   background-image: url(../images/bg.webp);
