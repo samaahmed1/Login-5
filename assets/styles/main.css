@@ -59,6 +59,10 @@ header a {
   .sign-in .container {
     justify-content: center;
   }
+  .sign-in .sign-in-container {
+    width: 500px;
+    margin: 0 15px;
+  }
 }
 .sign-in .sign-in-container {
   width: 539px;
