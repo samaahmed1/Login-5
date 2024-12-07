@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles/main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="index.html">Your Logo</a>
+      </div>
+    </header>
+    <main>
+      <section class="sign-in">
+        <div class="container">
+          <div class="sign-in-container">
+            <div class="heading">
+              <p class="welcome-message">Welcome to <span>Lorem</span></p>
+              <p class="no-have-account">
+                No Account ? <br />
+                <a href="signup.html">Sign Up</a>
+              </p>
+            </div>
+            <h1>Sign Up</h1>
+            <form>
+              <label for="username-or-email">Enter your username or email address</label>
+              <input type="text" name="username-or-email" id="username-or-email" placeholder="Username or email address" required autofocus />
+              <div class="input-container">
+                <div>
+                  <label for="username">Username</label>
+                  <input type="text" name="username" id="username" placeholder="User name" required />
+                </div>
+                <div>
+                  <label for="contact-number">Contact Number</label>
+                  <input type="text" name="contact-number" id="contact-number" placeholder="Contact number" />
+                </div>
+              </div>
+              <label for="password">Enter your password</label>
+              <input type="password" name="password" id="password" placeholder="Password" required />
+              <input type="submit" value="Sign Up" />
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

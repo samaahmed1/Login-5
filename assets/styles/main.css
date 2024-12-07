@@ -152,7 +152,7 @@ header a {
 }
 .sign-in form a {
   display: block;
-  margin: 10px 0 40px 0;
+  margin: 10px 0 0 0;
   text-align: right;
   color: var(--blueberry);
 }
@@ -169,4 +169,13 @@ header a {
   color: var(--white);
   padding: 15px;
   float: right;
+  margin-top: 40px;
+}
+@media (max-width: 991px) {
+  .sign-in form .input-container {
+    display: block;
+  }
+  .sign-in form input[type="submit"] {
+    width: 100%;
+  }
 }
