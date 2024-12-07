@@ -55,6 +55,11 @@ header a {
   align-items: center;
   justify-content: end;
 }
+@media (max-width: 991px) {
+  .sign-in .container {
+    justify-content: center;
+  }
+}
 .sign-in .sign-in-container {
   width: 539px;
   padding: 44px;
